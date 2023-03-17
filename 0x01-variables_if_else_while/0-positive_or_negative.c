@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 #include <stdio.h>
 
 /**
@@ -15,7 +14,6 @@ int main(void)
 	srand(time(0));
 	ran = rand() - RAND_MAX / 2;
 
-	
 	if (ran == 0)
 		printf("%d is zero\n", ran);
 	else if (ran < 0)
